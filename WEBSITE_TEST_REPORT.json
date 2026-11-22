@@ -1,0 +1,27 @@
+{
+  "entrypoint_count": 17,
+  "found_module_entrypoints": [
+    "module_01/index.html",
+    "module_02/index.html",
+    "module_03/index.html",
+    "module_04/index.html",
+    "module_05/index.html",
+    "module_06/index.html",
+    "module_07/index.html",
+    "module_08/index.html",
+    "module_09/index.html",
+    "module_10/index.html",
+    "module_11/index.html",
+    "module_12/index.html",
+    "module_13/index.html",
+    "module_14/index.html",
+    "module_15/index.html",
+    "module_16/index.html",
+    "module_17/index.html"
+  ],
+  "missing_internal_html_assets": [],
+  "published_pdf_count": 0,
+  "private_pdf_count": 17,
+  "total_published_bytes": 9916056,
+  "browser_verification": "blocked by environment policy: Chromium localhost ERR_BLOCKED_BY_ADMINISTRATOR"
+}
