@@ -1,0 +1,1000 @@
+Points: 1 Title: Module 1 — Original (revised) (M01-O01)
+1. Which of the following statements is NOT correct?
+a. Three major factors for increasing the wireless capacity are spectral efficiency enhancement, use of larger spectrum, and network densification.
+*b. Spectral efficiency enhancement is commonly seen as the most influential factor for future wireless capacity enhancements, and it is expected to improve the wireless capacity by at least 56 times within the next 10 years.
+c. 1G wireless systems were based on analog technology.
+d. 2G cellular systems are commonly known as GSM, and have widespread acceptance around the world.
+e. Regulatory bodies (ITU-R and regional/national regulators such as FCC) decide which parts of the spectrum and how much bandwidth may be used by different wireless technologies.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O02)
+1. Which of the following statements is NOT correct?
+a. Shannon capacity equation gives the maximum achievable capacity for a given bandwidth and SINR.
+b. 3G wireless systems were based on variations of CDMA, and could provide data rates up to 2 Mbps.
+c. One of the major features of LTE is that it was designed from the start with the goal of evolving the radio access technology towards a packet switched architecture.
+d. System architecture evolution (SAE) involves non-radio aspects of 4G networks, and includes the evolved packet core (EPC).
+*e. With the introduction of LTE, standardization and improvement for 2G and 3G systems within 3GPP have stopped.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O03)
+1. Which of the following statements is NOT correct?
+*a. LTE Release-8 can support downlink data rates on the order of 1 Gbps.
+b. In LTE, user plane latency should be smaller than 10 ms, and connection set-up latency should be smaller than 100 ms.
+c. Peak rates in LTE generally scale with the amount of spectrum used, and (for MIMO systems) with minimum of the number of transmit/receive antennas.
+d. Peak rate is defined as the maximum throughput that can be achieved per user, assuming whole bandwidth is allocated to a single user with the highest possible modulation/coding order, and when the maximum possible number of antennas are used at the transmitter/receiver.
+e. Peak rates, while an important indicator, may not be a key differentiator for the success of a particular wireless technology, since they are not typically achieved.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O04)
+1. Which of the following statements is NOT correct?
+a. In system-level LTE simulations, multi-cell configurations are considered with data transmission to/from multiple mobile users.
+*b. Voice over IP (VoIP) services in LTE can operate under large time delays.
+c. LTE is required to support UE velocities up to 500 km/h (e.g., bullet trains).
+d. Typical cell radius in LTE is up to 5 km; up to 100 km cell radius may be possible for wide area coverage.
+e. In broadcast mode of LTE, system throughput is limited to what is achievable by the worst-case users.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O05)
+1. Which of the following statements is NOT correct?
+a. LTE is required to support transition between RRC_IDLE and RRC_CONNECTED modes in less than 100 ms.
+b. Three major technologies that are used in LTE are multicarrier technology, multiple-antenna technology, and application of packet-switching to the radio interface.
+c. In OFDM, division of the spectrum into multiple narrowband subcarriers yields robustness against time-dispersion.
+d. Inter-symbol interference due to multipath interference can be prevented in OFDM through the use of a cyclic prefix.
+*e. Dividing a wideband transmitted symbol into multiple narrowband subcarriers necessitates the use of high-complexity equalization techniques in OFDM.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O06)
+1. Which of the following statements is NOT correct?
+a. Peak-to-average power ratio of an OFDM signal may be very high.
+*b. The high PAPR of OFDM makes it more power efficient than SC-FDMA for battery-powered LTE uplink transmitters.
+c. SC-FDMA waveform has better PAPR characteristics than OFDM, and hence used in the uplink of Release-8 3GPP LTE systems.
+d. The LTE uplink SC-FDMA transmitter and receiver use additional DFT and inverse-DFT spreading/despreading stages relative to CP-OFDM.
+e. SC-FDMA uses incorporation of a guard interval at the start of each transmitted symbol, in order to facilitate low-complexity frequency-domain equalization at the receiver.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O07)
+1. Which of the following statements is NOT correct?
+a. Three types of gains obtained through multiple antennas in LTE are the diversity gain, array gain, and spatial multiplexing gain.
+b. LTE schedules packets over short 1 ms subframes, allowing the transmitter to adapt rapidly to channel variations.
+*c. Packet size in circuit-switched resource allocation are approximately the same as those in the packet-switched resource allocation.
+d. In LTE, packet duration is reduced to 1 ms, from the packet size of 2 ms of HSDPA, its predecessor technology.
+e. Short packet duration in LTE enables link adaptation of modulation and code rate.
+
+Points: 1 Title: Module 1 — Original (revised) (M01-O08)
+1. Which of the following statements is NOT correct?
+a. In Release 8 and Release 9 of LTE, a total of 5 UE categories are supported, with achievable downlink data rates ranging from 10 Mbps up to 300 Mbps.
+b. 64-QAM modulation is supported in the downlink for UE-categories 1-5, while it is only supported by the UE category 5 in the uplink.
+c. LTE UE categories differ in their maximum data rate and supported number of spatial layers.
+*d. In Release-8 of LTE, maximum number of downlink MIMO layers that can be received by a UE is 8.
+e. Single-frequency network broadcast techniques were expanded through the evolved MBMS features of LTE.
+
+Points: 1 Title: Module 1 — New practice (M01-N01)
+1. An ideal 20 MHz AWGN link has an SNR of 10 dB. Approximately what is its Shannon capacity?
+a. 20 Mbps
+b. 46 Mbps
+*c. 69 Mbps
+d. 200 Mbps
+
+Points: 1 Title: Module 1 — New practice (M01-N02)
+1. A link delivers 60 Mbps of net user data over a 20 MHz occupied channel. What is its net spectral efficiency?
+a. 0.33 bps/Hz
+*b. 3 bps/Hz
+c. 20 bps/Hz
+d. 80 bps/Hz
+
+Points: 1 Title: Module 1 — New practice (M01-N03)
+1. When receiver noise power spectral density and received signal power stay fixed, what happens if an AWGN channel bandwidth is doubled?
+*a. Noise power doubles and SNR falls by about 3 dB
+b. Noise power stays fixed and SNR stays fixed
+c. Noise power halves and SNR rises by 3 dB
+d. SNR doubles and capacity exactly doubles
+
+Points: 1 Title: Module 1 — New practice (M01-N04)
+1. At the same distance and with isotropic antennas, increasing carrier frequency from 3 GHz to 6 GHz changes free-space path loss by approximately:
+a. −6 dB
+b. 0 dB
+c. +3 dB
+*d. +6 dB
+
+Points: 1 Title: Module 1 — New practice (M01-N05)
+1. In the 3.55–3.70 GHz U.S. CBRS three-tier sharing model, who has highest protection priority?
+a. General Authorized Access users
+b. Priority Access Licensees
+*c. Incumbent Access users
+d. All tiers have identical priority
+
+Points: 1 Title: Module 1 — New practice (M01-N06)
+1. An ideal AWGN channel operates at 0 dB SNR. What is its Shannon spectral efficiency?
+a. 0.5 bit/s/Hz
+*b. 1 bit/s/Hz
+c. 2 bits/s/Hz
+d. 3 bits/s/Hz
+
+Points: 1 Title: Module 1 — New practice (M01-N07)
+1. A receiver has a thermal noise density of −174 dBm/Hz and 5 dB noise figure. Approximately what is its noise power in a 1 MHz bandwidth?
+a. −119 dBm
+b. −114 dBm
+*c. −109 dBm
+d. −104 dBm
+
+Points: 1 Title: Module 1 — New practice (M01-N08)
+1. At fixed distance with ideal isotropic antennas, doubling the carrier frequency changes free-space path loss by approximately:
+a. 3 dB increase
+*b. 6 dB increase
+c. 6 dB decrease
+d. No change
+
+Points: 1 Title: Module 1 — New practice (M01-N09)
+1. Which statement about a national frequency-allocation chart is most accurate?
+a. Every allocated channel is continuously occupied
+*b. An allocation is not itself a real-time occupancy measurement
+c. All allocations grant exclusive commercial rights
+d. Unallocated blocks always have zero interference
+
+Points: 1 Title: Module 1 — New practice (M01-N10)
+1. What is the principal protection requirement of U.S. TV white-space operation?
+*a. Protect incumbent television and other protected users
+b. Prioritize TVWS over all licensed television
+c. Avoid any use of a coordination database
+d. Restrict all TVWS devices to CBRS channels
+
+Points: 1 Title: Module 1 — New practice (M01-N11)
+1. For a fixed physical antenna aperture and ideal efficiency, increasing carrier frequency primarily permits:
+a. Fewer half-wavelength elements per square metre
+*b. A larger number of half-wavelength elements in the same aperture
+c. Automatic elimination of blockage
+d. Frequency-independent angular resolution
+
+Points: 1 Title: Module 1 — New practice (M01-N12)
+1. A radio transmitter delivers 100 mW to an antenna with 10 dBi gain and negligible feeder loss. What is its EIRP?
+a. 10 dBm
+b. 20 dBm
+*c. 30 dBm
+d. 40 dBm
+
+Points: 1 Title: Module 1 — New practice (M01-N13)
+1. When adding small cells to reuse spectrum, which outcome is NOT guaranteed?
+a. Aggregate area capacity may rise
+b. Cells may experience more intercell interference
+*c. Every individual user’s SINR must increase
+d. More geographically separated transmissions may occur
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O01)
+1. Which of the following statements is NOT correct?
+a. LTE and service architecture evolution (SAE) are collectively referred as the evolved packet system (EPS).
+*b. SAE refers to the evolution of radio access within the EPS and it includes the evolved packet core (EPC).
+c. EPS uses the concept of EPS bearers to route IP traffic from a gateway in the packet data network (PDN) to the UE.
+d. EPS provides the user with IP connectivity to a PDN.
+e. EPS bearers in LTE are typically associated with a QoS.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O02)
+1. Which of the following statements is NOT correct?
+*a. In LTE, multiple bearers are not allowed to be established for a UE.
+b. An eNB is connected to the mobility management entity (MME) in the EPC through an S1 interface.
+c. An MME handles NAS security, idle state mobility handling, and EPS bearer control.
+d. Protocols running on an eNB in LTE are RRC, PDCP, RLC, MAC, and PHY.
+e. An eNB is considered to be within the E-UTRAN, while a PDN gateway is considered to be within the EPC.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O03)
+1. Which of the following statements is NOT correct?
+a. The MME creates a UE context when a UE is turned on, which includes dynamic information such as the list of bearers that are established and the terminal capabilities.
+b. The MME retains the UE context and the information about the established bearers during the idle periods of a UE.
+*c. During the idle mode, a UE sends an update message to the network to report its latest location whenever the UE moves to a new cell.
+d. MME is responsible for keeping track of the user locations while the UE is in the idle mode.
+e. A UE moves into an idle mode to reduce overhead/processing of all UE related information.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O04)
+1. Which of the following statements is NOT correct?
+a. In basic LTE operation, a UE updates its registration when it enters a tracking area outside its assigned tracking area list.
+b. A tracking area may be composed of many cells which is a design parameter by an operator; larger number of cells reduces the overhead due to frequent TAU transmissions by the UE, while a smaller number of cells improves the search process of UE in case of a paging message.
+*c. When a downlink data is intended to a UE during its idle mode, an MME sends a paging message to the specific eNB that the UE is located, and that eNB pages the UE over the radio interface.
+d. After receiving a paging message, a UE performs a service request procedure to move into RRC_CONNECTED state.
+e. UEs without regular access to the network (e.g., without a USIM) are allowed to access to the network in case of emergency calls.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O05)
+1. Which of the following statements is NOT correct?
+a. E-UTRAN consists of a network of eNBs.
+*b. In E-UTRAN, the eNBs communicate to each other through the S1 interface.
+c. For a regular user, there is no centralized controller in E-UTRAN, and its architecture is said to be flat; e.g., the eNBs communicate among each other to handle the mobility of a UE.
+d. Non-access stratum (NAS) protocols run between the UEs and the EPC.
+e. Radio related responsibilities of E-UTRAN are radio resource management, header compression, security, positioning, and connectivity to the EPC.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O06)
+1. Which of the following statements is NOT correct?
+a. As opposed to earlier generations, LTE integrates the radio controller function into the eNB.
+b. Distributed control in LTE eliminates the need for a high-availability and processing-intensive controller, reduces the latency, and improves efficiency.
+*c. In LTE, a UE can connect to multiple nodes during a handover, which is referred as soft handover.
+d. A drawback of a flat architecture is that as the UE moves, the network must transfer all information related to the UE from one eNB to another (i.e., the UE context, and any buffered data).
+e. There are mechanisms in LTE which rely on the use of the X2 interface to avoid loss of data during handover.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O07)
+1. Which of the following statements is NOT correct?
+a. A network run by an operator in a country is referred as a public land mobile network (PLMN).
+b. A roaming user is connected to the E-UTRAN, MME, and S-GW of the visited LTE network.
+c. LTE/SAE allows the P-GW of either the visited or the home network (allows access to the home operator's services even while in a visited network) to be used during a roaming procedure.
+*d. The radio resource control (RRC) protocol runs in the user plane, and it controls the transition between the RRC_IDLE and RRC_CONNECTED states of a UE, and handles the cell selection and handover procedures.
+e. In LTE, multiple bearers with different QoS requirements may be established for the same UE.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O08)
+1. Which of the following statements is NOT correct?
+a. A guaranteed-bit-rate (GBR) bearer provides a rate-related QoS requirement that scheduling and admission control aim to satisfy.
+b. Non-GBR bearers have applications such as web browsing and FTP transfer.
+c. A class identifier for a bearer shows the priority of a bearer, with respect to packet delay budget and acceptable packet loss rate.
+*d. S1 interface cannot be used for intra-LTE mobility (handover between eNBs).
+e. Seamless mobility minimizes the interruption time during the move of the UE.
+
+Points: 1 Title: Module 2 — Original (revised) (M02-O09)
+1. Which of the following statements is NOT correct?
+a. Lossless handover tolerates no loss of data.
+*b. Source eNB cannot prepare more than one other eNB for mobility conditions.
+c. Concepts of "too late" or "too early" handover have been defined in LTE Rel. 9.
+d. Load balancing, interference coordination and uplink interference management are handled through the X2 interface in LTE, which facilitates message exchanges among eNBs.
+e. UE history information, including recently visited cells, may be transferred between eNBs during handover.
+
+Points: 1 Title: Module 2 — New practice (M02-N01)
+1. Which LTE EPC element primarily handles NAS signaling and idle-mode UE mobility management?
+*a. MME
+b. S-GW
+c. P-GW
+d. eNB
+
+Points: 1 Title: Module 2 — New practice (M02-N02)
+1. Which LTE EPC node provides the connectivity toward external packet data networks and often acts as an IP anchoring point?
+a. HSS
+b. MME
+*c. P-GW
+d. PCRF
+
+Points: 1 Title: Module 2 — New practice (M02-N03)
+1. Which LTE interface directly connects two neighboring eNBs for mobility and coordination signaling?
+a. S1-MME
+*b. X2
+c. S5
+d. SGi
+
+Points: 1 Title: Module 2 — New practice (M02-N04)
+1. Why may one LTE UE establish more than one EPS bearer?
+a. To assign a separate physical antenna to every bearer
+b. To disable the user plane during idle mode
+*c. To support traffic flows with different QoS treatments
+d. To bypass the EPC for all IP traffic
+
+Points: 1 Title: Module 2 — New practice (M02-N05)
+1. For an idle-mode UE registered to a tracking area with 50 cells, why may downlink paging be more resource-intensive than in a 5-cell TA?
+*a. More cells may need to transmit paging to find the UE
+b. The UE must send 50 tracking updates per second
+c. The MME always knows the exact cell
+d. The radio frame duration increases
+
+Points: 1 Title: Module 2 — New practice (M02-N06)
+1. Which LTE interface normally carries S1-AP control signaling between an eNB and the core network?
+*a. S1-MME
+b. S1-U
+c. X2-U
+d. Gx
+
+Points: 1 Title: Module 2 — New practice (M02-N07)
+1. In the LTE EPC, which interface is used between a P-GW and PCRF for policy and charging rule interactions?
+a. X2
+b. S6a
+*c. Gx
+d. Uu
+
+Points: 1 Title: Module 2 — New practice (M02-N08)
+1. Which LTE EPC function acts as the user-plane anchor during many intra-LTE handovers?
+a. HSS
+*b. S-GW
+c. MME
+d. PCRF
+
+Points: 1 Title: Module 2 — New practice (M02-N09)
+1. In LTE, the air-interface communication between the UE and eNB is designated:
+a. S1
+b. S11
+*c. Uu
+d. Gx
+
+Points: 1 Title: Module 2 — New practice (M02-N10)
+1. Which entity maintains LTE subscriber authentication and subscription data used by the core?
+*a. HSS
+b. eNB
+c. S-GW
+d. PDCCH
+
+Points: 1 Title: Module 2 — New practice (M02-N11)
+1. For home-routed LTE roaming, user-plane packets to the external data network typically traverse which P-GW?
+a. Only the visited network’s P-GW
+*b. The home network’s P-GW
+c. The target eNB’s embedded P-GW
+d. No P-GW at all
+
+Points: 1 Title: Module 2 — New practice (M02-N12)
+1. An LTE UE has a default EPS bearer and establishes a dedicated bearer. What is the intended benefit?
+a. Give the same packet two different IP addresses
+*b. Provide distinct QoS treatment for selected traffic
+c. Replace NAS security with RLC
+d. Eliminate all P-GW signaling
+
+Points: 1 Title: Module 2 — New practice (M02-N13)
+1. In a conventional LTE X2 handover, which network element normally decides to initiate the handover?
+*a. Source eNB
+b. P-GW
+c. HSS
+d. PCRF
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O01)
+1. Which of the following statements is NOT correct?
+a. Radio Resource Control (RRC) is the name of the protocol through which E-UTRAN controls a UE's behavior.
+b. NAS control protocols handle PLMN selection, tracking area update, paging, authentication, and EPS bearer establishment at the evolved packet core (EPC).
+*c. RRC_CONNECTED is the RRC state in which a UE performs cell selection and reselection.
+d. Idle-mode cell reselection takes account of frequency priorities, measured signal level or quality, and cell-access restrictions.
+e. System information (SI) transmitted by an eNB includes parameters to control cell (re)selection process during RRC_IDLE mode.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O02)
+1. Which of the following statements is NOT correct?
+a. RRC_CONNECTED facilitates the transfer of unicast downlink/uplink data through shared data channels.
+*b. Discontinuous reception (DRX) helps a UE to improve the data rate during RRC_CONNECTED mode.
+c. A control channel in LTE facilitates dynamic allocation of transmission resources in time / frequency.
+d. During RRC_CONNECTED, following information are provided by a UE to the network: UE buffer status, UE downlink channel quality, and neighboring cell measurement information.
+e. Mobility during RRC_IDLE mode is UE-controlled (cell re-selection), while mobility during RRC_CONNECTED mode is E-UTRAN controlled (handover).
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O03)
+1. Which of the following statements is NOT correct?
+*a. A UE always selects the cell with the best link quality for camping regardless of the priorities of the cells.
+b. In most cases, link quality is the primary criteria for both cell selection and handover.
+c. Mobility mechanisms in RRC_IDLE and RRC_CONNECTED modes should be consistent to avoid ping-pongs.
+d. For inter-frequency and inter-RAT cell reselection, UE capability, subscriber type, and call type may be important criteria to select the best cell.
+e. Cell-specific default values of priorities for different frequency bands are provided to a UE from E-UTRAN through the system information (SI) messages.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O04)
+1. Which of the following statements is NOT correct?
+a. During connected mode, E-UTRAN (not the UE) decides to which cell a UE should hand over in order to maintain the radio link.
+b. E-UTRAN, while deciding which cell to hand-over a user, takes into account factors including radio link quality, UE capability, subscriber type, and access restrictions.
+c. E-UTRAN configures a UE to report measurements of the candidate target cells for handover purposes.
+*d. E-UTRAN cannot force a UE to make a handover to a particular cell without any measurement reports from that UE.
+e. LTE is based on hard-handover, where a UE cannot be connected to two cells simultaneously (for handover purposes).
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O05)
+1. Which of the following statements is NOT correct?
+a. During handover, the serving eNB for a UE requests a target eNB to prepare for a handover.
+*b. Source eNB is not allowed to prepare more than one target eNB for handover.
+c. Source eNB provides RRC context information about the UE's capabilities to the target cell during handover preparation.
+d. LTE also supports a UE by itself to decide connecting to a target cell and request the connection to be continued (only after loss of the connection to the source cell).
+e. In a successful handover, target eNB sends handover command to the source eNB, which is passed to the UE through RRCConnectionReconfiguration message.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O06)
+1. Which of the following statements is NOT correct?
+a. E-UTRAN can configure a UE to report measurement information for supporting UE mobility.
+b. Possible measurement configuration elements signaled by the E-UTRAN to the UE (through RRCConnectionReconfiguration message) are as follows: measurement objects, reporting configurations, measurement identities, quantity configurations, and measurement gaps.
+c. A measurement object defines where a certain UE should perform measurements (e.g., carrier frequencies, cells, etc.)
+d. Reporting configurations signaled in a RRCConnectionReconfiguration message by the E-UTRAN include the criteria on when to trigger a measurement report.
+*e. A UE can never report a newly detected neighbor cell unless that exact physical cell ID was explicitly listed in its RRC measurement configuration.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O07)
+1. Which of the following statements is NOT correct?
+a. A UE triggers a measurement report event when one or more cells meet a specified entry condition.
+b. A UE can trigger a measurement report if the serving cell link quality becomes better or worse than an absolute threshold.
+*c. In addition to events A1-A5 for measurement report triggering within the same RAT, there are also five other events B1-B5 for measurement report triggering for inter-RAT mobility.
+d. E-UTRAN may influence the entry condition to a measurement reporting event, e.g. through setting SINR thresholds or offsets.
+e. An entry condition should be satisfied at least for the duration of a time-to-trigger before a UE can send a measurement report to the serving eNB.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O08)
+1. Which of the following statements is NOT correct?
+a. In LTE, access stratum provides the information on available public line mobile networks (PLMNs), while the non-access stratum handles PLMN selection.
+*b. When a UE camps on a selected cell, it acquires the system information (SI) broadcasted by the camped cell, as well as the system information broadcasted by all the neighboring cells.
+c. During cell selection, a UE may search supported frequencies and radio access technologies, using stored information and network hints to reduce search time.
+d. One of the important requirements for cell selection procedure at the UE is that it should not take too long.
+e. The network can identify which frequencies/RATs to measure in order to narrow down candidate cells for camping on.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O09)
+1. Which of the following statements is NOT correct?
+*a. Cell selection criterion in LTE is known as the Z-criterion, and it is fulfilled when the cell selection receive level and quality level are below a threshold.
+b. Cell selection parameters to be used by a UE are broadcast by the E-UTRAN in the SIB1 message.
+c. Once a UE camps on a suitable cell, it starts the cell reselection process.
+d. For cell re-selection, a UE first evaluates the frequencies of all RATs based on their priorities, and then compares the cells on relevant frequencies based on their radio link quality (using a ranking criterion), and finally verifies accessibility of a target cell for potentially camping on it.
+e. If camping on a certain cell is restricted, UE chooses the next best cell from the list of cells based on their radio link qualities.
+
+Points: 1 Title: Module 3 — Original (revised) (M03-O10)
+1. Which of the following statements is NOT correct?
+a. During cell ranking, a UE ranks intra-frequency cells and the cells on other frequencies (having equal priority and which fulfill the S-criterion) using a criterion known as R-criterion.
+b. In the R-criterion, the reference signal received powers (RSRPs) of the serving and candidate cells (subject to biasing by individual hysteresis offsets) are ranked from the highest to the lowest.
+c. A UE selects the highest-ranked candidate cell which is ranked better than the serving cell for at least a threshold time duration.
+*d. The cell reselection parameters are independent from the speed of a UE.
+e. LTE mobility-state evaluation can distinguish normal, medium, and high mobility based on counts of cell reselections over defined intervals.
+
+Points: 1 Title: Module 3 — New practice (M03-N01)
+1. In a simplified network, increasing cells per tracking area usually causes which tradeoff?
+a. More TAUs and fewer paging transmissions
+*b. Fewer TAUs and more paging fan-out
+c. Fewer TAUs and fewer paging transmissions
+d. More TAUs and more paging fan-out
+
+Points: 1 Title: Module 3 — New practice (M03-N02)
+1. In a simplified LTE A3 trigger, a neighbor becomes better than the serving cell by a configured offset for the time-to-trigger. What event is reported?
+a. A1
+b. A2
+*c. A3
+d. B2
+
+Points: 1 Title: Module 3 — New practice (M03-N03)
+1. What is a primary purpose of handover hysteresis and time-to-trigger?
+*a. To reduce rapid back-and-forth handovers
+b. To increase control-plane paging area
+c. To prevent OFDM frequency offsets
+d. To eliminate the need for any measurements
+
+Points: 1 Title: Module 3 — New practice (M03-N04)
+1. Which LTE quantity explicitly includes measured total RSSI over a specified number of resource blocks?
+a. RSRP only
+b. Timing advance
+c. Physical cell ID
+*d. RSRQ
+
+Points: 1 Title: Module 3 — New practice (M03-N05)
+1. In LTE idle-mode mobility, which entity normally makes the cell reselection decision?
+a. S-GW
+*b. UE
+c. P-GW
+d. HSS
+
+Points: 1 Title: Module 3 — New practice (M03-N06)
+1. When an operator increases the number of LTE cells per tracking area, what is the main signaling tradeoff?
+*a. TA boundaries become less frequent, but an idle-UE page may reach more cells
+b. Paging fan-out always decreases and TAU frequency always increases
+c. Tracking-area updates occur after every cell handover
+d. Only uplink data scheduling changes
+
+Points: 1 Title: Module 3 — New practice (M03-N07)
+1. An idle LTE UE is registered with a list of tracking areas. It enters a different TA that is already on its list. Must it update solely because of that crossing?
+*a. No; crossing between TAs in the current registration list does not by itself require a TAU
+b. Yes; every new cell triggers an immediate TAU
+c. Yes; whenever RSRP improves
+d. Only if the UE transmits PUSCH
+
+Points: 1 Title: Module 3 — New practice (M03-N08)
+1. An idle UE enters a cell whose tracking area is already in its registered TA list. What is usually required solely because of this crossing?
+a. Immediate TAU in all cases
+*b. No TAU solely from the crossing
+c. Mandatory RRC_CONNECTED handover
+d. New EPS bearer setup
+
+Points: 1 Title: Module 3 — New practice (M03-N09)
+1. In a simplified LTE A3 test with no hysteresis, a neighboring cell is −90 dBm and the serving cell is −94 dBm. If the configured positive offset is 3 dB, what is the comparison result?
+a. The neighbor exceeds serving by only 1 dB
+*b. The neighbor exceeds serving by 4 dB and passes the 3 dB comparison
+c. Both cells are identical
+d. The comparison uses only the absolute −90 dBm level
+
+Points: 1 Title: Module 3 — New practice (M03-N10)
+1. Which LTE measurement event is generally associated with a serving-cell measurement falling below a configured threshold?
+a. A1
+*b. A2
+c. A3
+d. B1
+
+Points: 1 Title: Module 3 — New practice (M03-N11)
+1. Which LTE measurement-event family can reference measurements of an inter-RAT neighbor?
+a. Only A1–A3
+*b. B1 and B2
+c. Only PRACH events
+d. Only SIB2 events
+
+Points: 1 Title: Module 3 — New practice (M03-N12)
+1. A hypothetical TA contains 24 cells and a paging request fans out to every cell. If there are 10 such requests, how many cell-level paging deliveries occur, ignoring repeated and optimized paging?
+a. 24
+b. 34
+c. 120
+*d. 240
+
+Points: 1 Title: Module 3 — New practice (M03-N13)
+1. What is a likely consequence of choosing a very short handover time-to-trigger in a rapidly fluctuating channel?
+*a. More sensitivity to brief fades and ping-pong handovers
+b. Permanent elimination of handover failures
+c. No reports until a TA changes
+d. Longer physical OFDM symbols
+
+Points: 1 Title: Module 3 — New practice (M03-N14)
+1. Which entity normally decides LTE idle-mode cell reselection based on broadcast priorities and suitability criteria?
+a. PCRF
+*b. UE
+c. S-GW
+d. HSS
+
+Points: 1 Title: Module 3 — New practice (M03-N15)
+1. Which pair of measurements is often used by LTE UEs for cell selection, reselection, and mobility assessment?
+*a. RSRP and RSRQ
+b. CQI and coding rate only
+c. HARQ process ID and PAPR
+d. IP address and TEID
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O01)
+1. Which of the following statements is NOT correct?
+*a. Radio resource control (RRC) is an important part of user plane protocols.
+b. At a transmitter side, each protocol layer in LTE receives a service data unit (SDU) from an upper layer, and delivers a protocol data unit (PDU) to the lower unit.
+c. Packet data convergence protocol in user plane handles header compression/decompression, security functions, handover functions, and discard of user plane data due to timeout.
+d. Seamless handover requires transfer of sufficient UE context between the source and target eNBs to preserve service continuity.
+e. Seamless handover is used for applications which are reasonably tolerant of losses but less tolerant of delay, such as voice services.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O02)
+1. Which of the following statements is NOT correct?
+a. Lossless handover uses sequence numbers embedded into PDCP data PDUs to ensure that they are delivered in sequence.
+b. Lossless handover is used for delay tolerant services, such as file download.
+*c. Lossless handover does not impact the throughput of a link (when compared to seamless handover).
+d. During a lossless handover, some packets may need to be transferred from the source eNB to a target eNB.
+e. Lossless handover is applied for user plane radio bearers that are mapped on RLC acknowledge mode (AM).
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O03)
+1. Which of the following statements is NOT correct?
+a. Radio link control (RLC) is located between PDCP and MAC layers.
+b. Main functions of RLC include segmentation and reassembly of upper layer packets, retransmission to recover from packet losses, and reordering of packets for in-sequence reception after HARQ operation.
+c. The relevant RLC entity provides the RLC functionality for a configured radio bearer and transmission direction.
+d. RLC has three modes: transparent mode, unacknowledged mode, and acknowledge mode.
+*e. RLC transparent mode independently implements acknowledged ARQ retransmissions, in the same way as RLC acknowledged mode.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O04)
+1. Which of the following statements is NOT correct?
+a. Unacknowledged mode in RLC is typically used by delay-sensitive error-tolerant applications.
+b. Most important feature of acknowledge mode in RLC is the support for retransmissions.
+c. Acknowledged mode is mainly utilized by error-sensitive delay-tolerant non-real-time applications, such as web browsing, file download, and streaming (if delay requirement is not too stringent).
+*d. Radio resource control (RRC) messages in control plane typically use transparent mode in RLC.
+e. While there may be multiple RLC entities per UE, only one medium access control (MAC) entity exists per UE.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O05)
+1. Which of the following statements is NOT correct?
+a. Main functions of the MAC layer are related to multiplexing of data from different bearers.
+b. Goal of the MAC layer is to achieve negotiated QoS for each bearer.
+c. MAC layer decides the amount of data that can be transmitted from each radio bearer, instructs the RLC about the size of packets to provide, and (in the uplink) reports the eNB of the buffered data at a UE.
+d. Random access, scheduling, timing advance, and discontinuous reception (DRX) involve functions of the MAC layer.
+*e. To enable continuous transmission, up to 16 HARQ processes are used in parallel at the MAC layer, using a multi-process stop-and-wait (SAW) HARQ operation.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O06)
+1. Which of the following statements is NOT correct?
+a. During SAW HARQ, upon transmission of a transport block, a transmitter awaits feedback (ACK/NACK message) from a receiver before its next transmission.
+*b. All parallel stop-and-wait HARQ processes must share one common soft-combining buffer, even when they are awaiting different transmissions.
+c. There are two types of HARQ depending on when the retransmissions occur: synchronous HARQ and asynchronous HARQ.
+d. In synchronous HARQ, retransmissions for each process happen at pre-defined times relative to initial transmission instant to reduce signaling overhead.
+e. In an asynchronous HARQ, retransmissions can occur at any time relative to initial transmission, which allows more flexibility in scheduling.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O07)
+1. Which of the following statements is NOT correct?
+*a. The transport channels handle the communication between MAC and RLC, while logical channels handle the communication between MAC and PHY.
+b. Downlink transport channels include broadcast channel, downlink shared channel, paging channel, and multicast channel.
+c. Control logical channels include broadcast control channel (delivers the system information), paging control channel, common control channel (cell-wide), multicast control channel, and dedicated control channel (UE-specific).
+d. Details of scheduling algorithms are not standardized in LTE and are left to eNB implementation; only the signaling support for scheduling is standardized.
+e. An eNB may allocate downlink/uplink radio resources to a UE based on the downlink data buffered in the eNB and the buffer status reports received from the UEs.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O08)
+1. Which of the following statements is NOT correct?
+a. There are two scheduling modes in LTE: dynamic scheduling, and semi-persistent scheduling.
+b. Dynamic scheduling messages (assignment messages for the allocation of downlink transmission resources, and grant messages for the allocation of uplink transmission resources) are handled through PDCCH channel in LTE.
+c. For dynamic scheduling in LTE, assignment / grant messages are valid only for a specified subframe (1 ms duration).
+d. With semi-persistent scheduling, resources can be allocated periodically to a UE for a longer time duration than one subframe.
+*e. Semi-persistent scheduling is useful for services such as web-browsing and file download.
+
+Points: 1 Title: Module 4 — Original (revised) (M04-O09)
+1. Which of the following statements is NOT correct?
+a. In the uplink, an eNB should know whether the UE has uplink data to transmit; therefore buffer status reports are sent from the UEs to the eNBs for assisting in uplink scheduling decisions at the eNB.
+b. When a UE is not allocated with uplink radio resources but has data to transmit, the UE uses the random access procedure.
+*c. Uplink timing alignment ensures that UEs' uplink transmissions are synchronized at the eNB; this is achieved by the UEs closer to the eNB transmitting at an earlier time than the UEs that are far away from the eNB.
+d. Discontinuous reception can be configured for a UE during RRC_CONNECTED mode, so that it does not always need to monitor downlink channels.
+e. A longer DRX cycle is better for battery savings, while a shorter DRX cycle is better for achieving lower latency and faster response by the UE when the data transfer is resumed.
+
+Points: 1 Title: Module 4 — New practice (M04-N01)
+1. Which protocol feature reduces repetitive IP/UDP/RTP header overhead over the radio interface?
+a. HARQ
+*b. ROHC in PDCP
+c. Timing advance
+d. PRACH preamble ramping
+
+Points: 1 Title: Module 4 — New practice (M04-N02)
+1. Which RLC mode performs ARQ retransmissions driven by status reports?
+a. Transparent mode
+b. Unacknowledged mode
+*c. Acknowledged mode
+d. No RLC mode
+
+Points: 1 Title: Module 4 — New practice (M04-N03)
+1. What lies between the LTE MAC and PHY layers in the logical mapping of channel abstractions?
+*a. Transport channels
+b. Logical channels
+c. EPS bearers
+d. NAS messages
+
+Points: 1 Title: Module 4 — New practice (M04-N04)
+1. Why can several stop-and-wait HARQ processes operate in parallel?
+a. To eliminate all acknowledgment overhead
+b. To replace channel coding
+c. To make retransmissions impossible
+*d. To keep the link busy while other processes await feedback
+
+Points: 1 Title: Module 4 — New practice (M04-N05)
+1. A longer connected-mode DRX cycle generally offers:
+a. Higher battery use and lower wake-up latency
+*b. Lower battery use and potentially higher downlink wake-up delay
+c. Higher user throughput in every channel
+d. No effect on battery or latency
+
+Points: 1 Title: Module 4 — New practice (M04-N06)
+1. Which LTE protocol layer sits directly above RLC in the usual user-plane radio protocol stack?
+a. MAC
+*b. PDCP
+c. PHY
+d. NAS
+
+Points: 1 Title: Module 4 — New practice (M04-N07)
+1. Which LTE RLC operating mode includes its own ARQ retransmission mechanism?
+a. Transparent mode
+b. Unacknowledged mode
+*c. Acknowledged mode
+d. All three modes
+
+Points: 1 Title: Module 4 — New practice (M04-N08)
+1. Why may a receiver buffer successfully received higher-sequence-number RLC PDUs?
+*a. To reconstruct in-order data after a lower-sequence PDU is delayed
+b. To disable HARQ feedback
+c. To change the LTE band
+d. To calculate EIRP
+
+Points: 1 Title: Module 4 — New practice (M04-N09)
+1. In a simplified transport scenario with independent block error probability 0.2 per attempt, what is the expected number of attempts if unlimited independent retransmissions are allowed?
+a. 0.8
+b. 1.0
+*c. 1.25
+d. 5.0
+
+Points: 1 Title: Module 4 — New practice (M04-N10)
+1. Which statement about HARQ and RLC AM is accurate?
+a. Both must always retransmit the same packet at the same time
+*b. HARQ works at MAC while RLC AM can provide additional higher-layer recovery
+c. RLC AM replaces MAC entirely
+d. HARQ only handles header compression
+
+Points: 1 Title: Module 4 — New practice (M04-N11)
+1. Which report informs an LTE eNB about queued uplink data in a UE?
+*a. BSR
+b. PMI
+c. PSS
+d. MIB
+
+Points: 1 Title: Module 4 — New practice (M04-N12)
+1. A UE increases its connected-mode DRX cycle while its traffic remains sparse. What tradeoff is typical?
+a. Less sleeping but less paging
+*b. More sleep opportunity but potentially slower downlink response
+c. Higher modulation automatically
+d. Permanent discontinuation of RRC
+
+Points: 1 Title: Module 4 — New practice (M04-N13)
+1. Which standardized LTE layer is primarily responsible for ciphering user-plane radio bearers?
+*a. PDCP
+b. PRACH
+c. PDCCH
+d. PHY synchronization
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O01)
+1. Which of the following statements is NOT correct?
+*a. OFDM requires complex equalization techniques due to FFT/IFFT operations involved.
+b. In OFDM, channel over each subcarrier's bandwidth is assumed to be flat.
+c. OFDM results in spectrum savings compared to a classical multicarrier system due to overlapping (but orthogonal) subcarriers.
+d. No guard band is required in OFDM for separating subcarriers.
+e. Subcarrier spacing in OFDM is adjusted in a way to guarantee orthogonality.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O02)
+1. Which of the following statements is NOT correct?
+a. OFDM benefits from the use of channel coding and HARQ to combat with deep fading on the individual narrow-band subcarriers.
+b. A problem with high-rate data streams is that in multipath channels with large delay spread, complex equalization techniques are required to combat with inter-symbol-interference (ISI) problem.
+*c. OFDM uses very large subcarrier bandwidths to combat with ISI.
+d. OFDM converts a high-rate data stream into M parallel low-rate data streams (serial-to-parallel conversion), each of which is modulated at different subcarriers.
+e. Time-duration of each subcarrier in OFDM is approximately increased by M (number of subcarriers), so that the symbol duration is significantly longer than the channel delay spread.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O03)
+1. Which of the following statements is NOT correct?
+a. After serial to parallel conversion, bits to be transmitted are mapped onto complex symbols, such as QPSK, 16-QAM, and 64-QAM.
+b. Before getting the IFFT of complex symbols that are mapped on OFDM subcarriers, zero padding is applied to edge subcarriers in order to comply with spectral mask requirements.
+*c. Cyclic prefix (CP) is added to an OFDM signal before the IFFT block, and helps to combat multipath effects.
+d. The receiver removes the CP before getting the FFT of the received samples.
+e. Use of FFT / IFFT greatly reduces the transmitter/receiver complexity, compared to bank of sinusoids approach.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O04)
+1. Which of the following statements is NOT correct?
+a. A digital modulation scheme modifies three parameters of a sinusoidal signal: amplitude (amplitude shift keying -- ASK), frequency (frequency shift keying -- FSK), and phase (phase shift keying -- PSK).
+b. In OFDM, a combination of ASK/PSK is used; with quadrature amplitude modulation, both the amplitude and phase of a signal are changed to carry the transmitted bits.
+*c. Since it carries larger number of bits, 64-QAM is preferable over 16-QAM for all possible values of signal-to-interference-plus-noise ratios (SINRs).
+d. OFDM is sensitive to carrier frequency offsets (CFOs) due to the "sinc" shape of its subcarriers in frequency domain.
+e. Use of a CP is preferable over the use of a guard-band (nothing transmitted), since, in addition to mitigating ISI effects, use of a CP also enables simple equalization at the receiver.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O05)
+1. Which of the following statements is NOT correct?
+a. Use of the CP in OFDM results in a circular convolution between the channel impulse response and the transmitted OFDM signal.
+b. Due to the circular convolution property, one-tap equalization becomes possible at the receiver.
+c. Channel estimation can compensate for rotation and scaling effects due to the multipath channel.
+d. Peak to average power ratio (PAPR) is a major drawback of OFDM.
+*e. PAPR problem in OFDM can be handled through using larger FFT sizes.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O06)
+1. Which of the following statements is NOT correct?
+a. Due to PAPR, OFDM signals may suffer from non-linear distortions, yielding out-of-band emissions and in-band corruption.
+b. In typical power amplifiers, output signal does not scale linearly with input signal after a threshold input power.
+c. PAPR problem in OFDM can be reduced through a clipping technique, where large values of time domain OFDM signal are clipped to a pre-defined level.
+*d. The main reason for the carrier frequency offset problems in OFDM is the multipath channel.
+e. Typically, frequency synchronization errors larger than few percent of the subcarrier bandwidth are untolerable in OFDM systems.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O07)
+1. Which of the following statements is NOT correct?
+a. A single path channel results in a Doppler shift with a specific Doppler frequency.
+*b. Doppler spread causes timing offset problems in OFDM.
+c. Doppler shift (and hence the carrier frequency offset) scales linearly with a UE's velocity.
+d. Large Doppler spread can make higher-order modulation less reliable when channel estimation cannot track rapid variations.
+e. If received OFDM signals arrive within the cyclic prefix, no inter-carrier-interference occurs, but a phase shift is introduced (which can be recovered through channel estimation).
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O08)
+1. Which of the following statements is NOT correct?
+a. Use of a guard time (rather than a CP) in OFDM does not handle the inter-carrier-interference problem, even if all the multipath signals arrive within the guard time.
+b. Multiuser diversity in OFDMA significantly improves the aggregate spectral efficiency.
+c. CP dimensioning in OFDM mainly depends on the duration of the channel impulse response.
+*d. Use of a larger CP in OFDM always improves the throughput.
+e. Larger delay spreads, which may arise in wide-area cells, may motivate a longer cyclic prefix.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O09)
+1. Which of the following statements is NOT correct?
+a. OFDM subcarrier spacing design should depend on the amount of potential Doppler spread.
+*b. For a fixed number of OFDM subcarriers, a larger subcarrier spacing means also a longer symbol duration.
+c. OFDM symbol duration should be large enough to minimize overhead relative to CP duration, but also small enough to ensure that channel does not vary within the OFDM symbol duration.
+d. OFDM parameter dimensioning depends on the environment, cell sizes, carrier frequencies, and employed bandwidths.
+e. LTE can support UE speeds as high as 500 km/h, and cell sizes up to 100 km.
+
+Points: 1 Title: Module 5 — Original (revised) (M05-O10)
+1. Which of the following statements is NOT correct?
+a. Subcarrier spacing in LTE is set to 15 kHz, which is a sufficiently large spacing to support high UE speeds.
+*b. LTE can adaptively choose among a large number of CP durations depending on the environment, ranging from 1 microseconds up to 30 microseconds.
+c. In case of multimedia broadcast single-frequency network (MBSFN) configuration, extended CP duration can be employed due to larger RMS delay spreads of the wireless channel.
+d. In the normal CP mode, one slot in OFDM (0.5 ms) is composed of seven OFDM symbols.
+e. In case of 20 MHz systems, FFT size in OFDM, while implementation dependent, can be assumed to be 2048.
+
+Points: 1 Title: Module 5 — New practice (M05-N01)
+1. For ideal OFDM with 15 kHz subcarrier spacing, the useful OFDM symbol duration is approximately:
+a. 6.67 µs
+b. 33.3 µs
+*c. 66.7 µs
+d. 150 µs
+
+Points: 1 Title: Module 5 — New practice (M05-N02)
+1. Why is a cyclic prefix used rather than an equal-length all-zero guard interval in CP-OFDM?
+*a. It enables circular-convolution-based frequency-domain equalization
+b. It doubles the number of QAM bits per symbol
+c. It removes every Doppler effect
+d. It eliminates pilot overhead
+
+Points: 1 Title: Module 5 — New practice (M05-N03)
+1. A 1.5 kHz CFO in an OFDM system using 15 kHz subcarrier spacing corresponds to normalized CFO:
+a. 0.01
+*b. 0.10
+c. 1.0
+d. 10
+
+Points: 1 Title: Module 5 — New practice (M05-N04)
+1. What is a principal drawback of clipping OFDM peaks to lower PAPR?
+a. More useful subcarriers are created
+b. The channel becomes frequency-flat
+c. Spectral efficiency is always doubled
+*d. In-band distortion and out-of-band spectral regrowth may increase
+
+Points: 1 Title: Module 5 — New practice (M05-N05)
+1. Why can frequency-dependent OFDMA scheduling improve aggregate throughput?
+a. It assigns each user all subcarriers simultaneously
+b. It eliminates inter-cell interference in all cases
+*c. It assigns subcarriers to users whose channels are favorable there
+d. It makes coding unnecessary
+
+Points: 1 Title: Module 5 — New practice (M05-N06)
+1. An OFDM system uses 30 kHz subcarrier spacing. Its useful symbol duration (excluding CP) is approximately:
+a. 16.7 µs
+*b. 33.3 µs
+c. 66.7 µs
+d. 133.3 µs
+
+Points: 1 Title: Module 5 — New practice (M05-N07)
+1. In CP-OFDM, what condition allows one-tap frequency-domain equalization to avoid inter-symbol interference in an ideal synchronized channel?
+a. Delay spread is shorter than the useful OFDM symbol only
+*b. The channel delay support fits inside the cyclic prefix
+c. Every subcarrier uses the same channel coefficient
+d. The signal has no fading
+
+Points: 1 Title: Module 5 — New practice (M05-N08)
+1. If a useful OFDM symbol is 66.7 µs and its CP is 4.7 µs, what fraction of transmitted symbol time is CP overhead?
+a. Approximately 3.3%
+*b. Approximately 6.6%
+c. Approximately 10.7%
+d. Approximately 30% 
+
+Points: 1 Title: Module 5 — New practice (M05-N09)
+1. Which quantity is most directly affected by a carrier-frequency offset of one tenth of the subcarrier spacing?
+*a. Orthogonality between received OFDM subcarriers
+b. The number of antenna ports
+c. The IP addressing mode
+d. The physical size of the CP buffer
+
+Points: 1 Title: Module 5 — New practice (M05-N10)
+1. Why is oversampling important when estimating the peak-to-average power ratio of an OFDM waveform?
+a. It reduces coding rate
+*b. It helps capture peaks between nominal FFT sample instants
+c. It removes thermal noise
+d. It changes the frequency-allocation license
+
+Points: 1 Title: Module 5 — New practice (M05-N11)
+1. In a high-mobility channel with substantial Doppler spread, which OFDM configuration tends to improve resistance to time variation within a symbol, other factors equal?
+*a. Shorter useful symbol duration
+b. Longer useful symbol duration
+c. Zero CP regardless of delay
+d. Fewer RF chains
+
+Points: 1 Title: Module 5 — New practice (M05-N12)
+1. An OFDMA scheduler assigns a subband to the user with the strongest instantaneous subband channel. This primarily exploits:
+a. Spatial polarization only
+*b. Multiuser frequency diversity
+c. Packet header compression
+d. Frequency-independent fading
+
+Points: 1 Title: Module 5 — New practice (M05-N13)
+1. What is a major adverse side effect of aggressive OFDM peak clipping?
+a. Reduced data-subcarrier count to zero
+*b. In-band distortion and out-of-band spectral regrowth
+c. Elimination of amplifier nonlinearity
+d. Guaranteed BER improvement
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O01)
+1. Which of the following statements is NOT correct?
+a. There are three resource dimensions that can be utilized by LTE: time, frequency, and space.
+b. Spatial dimension is measured in ‘layers', which are accessed by multiple antenna ports at the eNB.
+*c. Same reference symbol (RS) is used for all the antenna ports by a UE to estimate the radio channel.
+d. For each antenna port, largest unit in time domain is a 10 ms radio frame.
+e. A radio frame is divided into ten 1-ms subframes.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O02)
+1. Which of the following statements is NOT correct?
+a. Each subframe in LTE is split into two 0.5 ms slots.
+b. Each slot of 0.5 ms in LTE is composed of 7 OFDM symbols in normal CP mode.
+*c. In frequency domain, resources are grouped into 10 subcarriers (each of which is 18 kHz), yielding a bandwidth of 180 kHz for a resource block.
+d. Smallest unit in an LTE frame structure is a resource element, which is a single subcarrier in a single OFDM symbol.
+e. One resource block in LTE is composed of 84 resource elements in normal CP mode, and 72 resource elements in extended CP mode.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O03)
+1. Which of the following statements is NOT correct?
+a. In TDD operation mode, different downlink and uplink duty cycles can be achieved through different TDD configurations, which makes it possible to dynamically adapt into variations in downlink and uplink traffic.
+b. A guard period between downlink/uplink subframes in TDD mode allows the implementation of timing advance operation.
+*c. A 5 ms switching periodicity in LTE introduces a larger delay for data transmission, when compared to 10 ms switching periodicity, .
+d. Scrambling block in LTE serves the purpose of interference rejection, and uses Gold codes.
+e. A codeword in LTE is formed after addition of cyclic redundancy check (CRC) and channel coding bits to the data bits to be transmitted.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O04)
+1. Which of the following statements is NOT correct?
+a. In LTE, a UE has to go through the cell search procedure before gaining an initial access to an LTE cell.
+b. Cell search process is necessary to acquire critical system parameters, achieve time/frequency synchronization, demodulate downlink signals, and transmit uplink signals with correct timing advance.
+c. In time domain, both symbol and frame timing acquisition is achieved through cell search, which e.g. is useful for setting correct DFT window position.
+d. Carrier frequency synchronization is necessary to reduce or eliminate the effect of frequency errors due to oscillator mismatch or Doppler.
+*e. In LTE, SSS alone (without PSS information) uniquely determines the full physical cell identity.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O05)
+1. Which of the following statements is NOT correct?
+*a. Before detection of the PSS and the SSS, a UE first has to detect the reference symbols (RSs).
+b. Cell search procedure in LTE first requires the detection of primary synchronization sequence (PSS), which makes it possible to detect the SSS.
+c. Correctly detecting the SSS also yields the information about the cyclic prefix length of the transmission, as well as whether the transmission is in TDD or FDD mode.
+d. After detecting the PSS and SSS, a UE is able to decode the physical broadcast channel (PBCH).
+e. For handover or cell reselection purposes, UE can also detect the PSS and SSS of the neighboring cells.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O06)
+1. Which of the following statements is NOT correct?
+a. In the FDD mode, PSS is always transmitted at the last OFDM symbol of 1st and 11th slots.
+b. In the FDD mode, SSS is always transmitted in the symbol immediately preceding the PSS, which enables coherent detection of the SSS relative to the PSS.
+c. In the FDD mode, the assumption for coherent detection of SSS relative to the PSS is that the channel should be assumed approximately constant within a 2 symbol duration.
+d. In TDD mode, PSS is always transmitted at the 3rd OFDM symbol of 3rd and 13th slots, and SSS is located three symbols earlier.
+*e. Coherent detection of SSS is easier with TDD operation than the FDD operation.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O07)
+1. Which of the following statements is NOT correct?
+a. After detection of the PSS, precise location of the SSS is still uncertain, and requires a blind detection procedure.
+*b. Detection of PSS and SSS requires the information about the bandwidth used by the cell.
+c. Blind detection involves checking of two different CP durations (short and long) and two different duplexing modes (FDD and TDD) for finding the exact SSS location (i.e., checking a total of 4 possible SSS positions).
+d. PSS and SSS are always transmitted at the central 6 resource blocks in frequency (72 subcarriers).
+e. PSS/SSS detection can operate on a reduced receiver bandwidth because these signals occupy the central part of the LTE carrier.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O08)
+1. Which of the following statements is NOT correct?
+a. Particular PSS/SSS combination used by a cell also characterizes the physical layer cell identity of the transmitting cell.
+b. 3 unique PSS sequences indicate the cell identity within a group, while 168 SSS sequences indicate the identity of the group; hence, a total of 504 cells can be represented with different combinations of PSS and SSS in LTE.
+*c. In LTE, PSS uses M-sequences, while SSS uses Zadoff-Chu sequences.
+d. Zadoff-Chu sequences have a constant amplitude.
+e. Properly constructed Zadoff–Chu sequences have ideal periodic autocorrelation at nonzero cyclic shifts.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O09)
+1. Which of the following statements is NOT correct?
+a. Zadoff-Chu sequences have low peak-to-average power ratio.
+*b. Cyclic autocorrelation of a Zadoff-Chu sequence is a constant value for all cyclic shifts.
+c. For sequences with suitable root and length properties, Zadoff–Chu sequences have a controlled periodic cross-correlation magnitude.
+d. Zadoff-Chu sequences have a constant amplitude.
+e. PSS in LTE is constructed from Zadoff-Chu sequences of length 63, using three different roots which are relatively prime with respect to 63.
+
+Points: 1 Title: Module 6 — Original (revised) (M06-O10)
+1. Which of the following statements is NOT correct?
+a. Zero autocorrelation zone property of Zadoff-Chu sequences help to combat against multipath effects during synchronization.
+b. During non-coherent detection of a PSS, no prior knowledge of channel is required, but only the channel statistics are utilized.
+*c. Non-coherent detection can only be used for PSS, while coherent detection can be used for detecting both PSS and SSS.
+d. Performance of a non-coherent detection of a PSS or an SSS is degraded if the coherence bandwidth of the channel is less than six resource blocks.
+e. Physical layer cell identity (PCI) of a cell is given by 3 * (SSS-ID) + PSS-ID, where SSS-ID denotes the physical layer cell identity group number, while PSS-ID denotes the physical layer identity number.
+
+Points: 1 Title: Module 6 — New practice (M06-N01)
+1. How many resource elements are in one LTE resource block spanning one 0.5 ms slot with normal CP?
+a. 72
+*b. 84
+c. 144
+d. 168
+
+Points: 1 Title: Module 6 — New practice (M06-N02)
+1. For LTE PCI group index 100 and identity within the group 2, what is the PCI?
+a. 102
+b. 200
+c. 300
+*d. 302
+
+Points: 1 Title: Module 6 — New practice (M06-N03)
+1. Which synchronization pair enables an LTE UE to derive one of 504 physical cell identities?
+*a. PSS and SSS
+b. SRS and DM-RS
+c. PBCH and PUCCH
+d. CQI and PMI
+
+Points: 1 Title: Module 6 — New practice (M06-N04)
+1. For LTE downlink, one radio frame contains:
+a. 1 subframe of 10 ms
+b. 5 subframes of 2 ms
+*c. 10 subframes of 1 ms
+d. 20 subframes of 1 ms
+
+Points: 1 Title: Module 6 — New practice (M06-N05)
+1. Which impairment most directly destroys the orthogonality between OFDM subcarriers even when multipath delays fit the CP?
+a. A larger fixed antenna gain
+*b. Carrier-frequency offset
+c. A longer FFT window correctly aligned
+d. Higher UE receiver battery capacity
+
+Points: 1 Title: Module 6 — New practice (M06-N06)
+1. An LTE resource block spans 12 subcarriers. How much nominal subcarrier-occupied bandwidth does it represent with 15 kHz spacing?
+a. 90 kHz
+b. 150 kHz
+*c. 180 kHz
+d. 360 kHz
+
+Points: 1 Title: Module 6 — New practice (M06-N07)
+1. How many ordinary OFDM symbols are in a 1 ms LTE downlink subframe using normal cyclic prefix?
+a. 7
+b. 12
+*c. 14
+d. 20
+
+Points: 1 Title: Module 6 — New practice (M06-N08)
+1. How many OFDM symbols are there in one LTE downlink 0.5 ms slot with extended cyclic prefix?
+a. 5
+*b. 6
+c. 7
+d. 8
+
+Points: 1 Title: Module 6 — New practice (M06-N09)
+1. Why can an LTE UE detect PSS/SSS before knowing the full carrier bandwidth?
+*a. Synchronization signals occupy a central region independent of total bandwidth
+b. PSS is sent on every RB
+c. PSS uses GPS outside the LTE waveform
+d. Every UE assumes a 20 MHz carrier
+
+Points: 1 Title: Module 6 — New practice (M06-N10)
+1. Which expression correctly combines LTE physical-cell identity group N(1) and within-group identity N(2)?
+a. N(1)+504N(2)
+*b. 3N(1)+N(2)
+c. 168N(1)+N(2)
+d. N(1)−N(2)
+
+Points: 1 Title: Module 6 — New practice (M06-N11)
+1. A full length-63 Zadoff–Chu sequence underlies LTE PSS generation. How many nonzero transmitted PSS subcarriers are mapped after omitting the central DC position?
+a. 31
+*b. 62
+c. 63
+d. 72
+
+Points: 1 Title: Module 6 — New practice (M06-N12)
+1. Which LTE channel provides the master information block after synchronization?
+a. PUSCH
+b. PRACH
+*c. PBCH
+d. PUCCH
